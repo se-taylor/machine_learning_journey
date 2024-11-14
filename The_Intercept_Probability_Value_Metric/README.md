@@ -1,7 +1,7 @@
 # A Probabilistic Approach to Assessing Linear Regression Intercept Stability: The Intercept Probability Value Metric
 
 ## Abstract
-The Intercept Probability Value (PiV) provides a Bayesian framework for quantifying model stability based on the posterior probability of a non-zero intercept coefficient. Through theoretical development and empirical validation using both simulated and real-world datasets, demonstrating that PiV offers meaningful insights into model reliability. Our results indicate a strong correlation between PiV scores and traditional stability metrics, providing additional interpretability advantages.
+The Intercept Probability Value (PiV) provides a Bayesian framework for quantifying model stability based on the posterior probability of a non-zero intercept coefficient. Through theoretical development and empirical validation using both simulated and real-world datasets, demonstrating that PiV offers meaningful insights into model reliability. Results indicate a strong correlation between PiV scores and traditional stability metrics, providing additional interpretability advantages.
 
 ### 1. Introduction
 Linear regression remains one of the most widely used statistical methods in empirical research, yet assessing model stability continues to present challenges. Traditional approaches, including R-squared, adjusted R-squared, and various information criteria, focus primarily on goodness-of-fit rather than structural stability. Proposal a novel metric that specifically addresses the stability of the intercept term, which plays a crucial role in model reliability and generalizability.
