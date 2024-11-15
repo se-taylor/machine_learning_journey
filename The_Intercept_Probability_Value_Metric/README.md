@@ -1,3 +1,5 @@
+![The Intercept Probability Value (PiV)](https://raw.githubusercontent.com/se-taylor/machine_learning_projects/refs/heads/main/img/piv.webp "The Intercept Probability Value (PiV)")
+
 # A Probabilistic Approach to Assessing Linear Regression Intercept Stability: The Intercept Probability Value Metric
 
 ## Abstract
