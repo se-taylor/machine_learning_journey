@@ -6,20 +6,20 @@
 The Intercept Probability Value (PiV) provides a Bayesian framework for quantifying model stability based on the posterior probability of a non-zero intercept coefficient. Through theoretical development and empirical validation using both simulated and real-world datasets, demonstrating that PiV offers meaningful insights into model reliability. Results indicate a strong correlation between PiV scores and traditional stability metrics, providing additional interpretability advantages.
 
 ### 1. Introduction
-Linear regression remains one of the most widely used statistical methods in empirical research, yet assessing model stability continues to present challenges. Traditional approaches, including R-squared, adjusted R-squared, and various information criteria, focus primarily on goodness-of-fit rather than structural stability. Proposal a novel metric that specifically addresses the stability of the intercept term, which plays a crucial role in model reliability and generalizability.
+Linear regression is widely embraced in empirical research, offering valuable insights, yet ensuring model stability remains an exciting opportunity for further exploration and improvement. Approaches like R-squared, adjusted R-squared, and various information criteria focus primarily on goodness-of-fit rather than structural stability. What is needed is a metric that focuses on the stability of the intercept term, a key factor for ensuring the model's reliability and broader applicability.
 
 #### 1.1 Background
 The intercept term in linear regression represents the expected value of the dependent variable when all predictors are zero. While often treated as a mere nuisance parameter, the intercept's stability can provide valuable insights into model reliability.
 
-Existing methods for assessing intercept-stability, typically rely on the following:
+Existing methods for assessing intercept stability rely on the following:
 - Standard error of the intercept
 - Confidence intervals
 - T-statistics and p-values
 
-These frequentist approaches, while valuable, need to capture the probabilistic nature of intercept stability fully.
+Frequentist methods are helpful but must fully explain how stable intercepts can be.
 
 #### 1.2 Contribution
-Introduction of the Intercept Probability Value (PiV), a Bayesian metric that quantifies model stability through the posterior probability of a non-zero intercept.
+The Intercept Probability Value (PiV) is a Bayesian metric that measures model stability by calculating the posterior probability of a non-zero intercept.
 
 This approach offers several advantages:
 1. Intuitive probabilistic interpretation
@@ -49,9 +49,9 @@ Where:
 
 #### 2.3 Prior Selection
 Proposal of a hierarchical prior structure:
-β₀ ~ N(μ₀, σ₀²)
-μ₀ ~ N(0, τ²)
-σ₀² ~ InverseGamma(α, β)
+- β₀ ~ N(μ₀, σ₀²)
+- μ₀ ~ N(0, τ²)
+- σ₀² ~ InverseGamma(α, β)
 
 This structure allows for:
 1. Incorporation of domain knowledge
